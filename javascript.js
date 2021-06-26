@@ -16,7 +16,7 @@ window.onload = function () {
     
     iniciar.onclick = function() {
         clearInterval(intervalo)
-        intervalo = setInterval(cronometrar, 0.1)
+        intervalo = setInterval(cronometrar, 1000)
     }
     pausar.onclick = function() {
         clearInterval(intervalo)
